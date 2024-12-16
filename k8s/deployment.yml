@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - image: docker.io/manindran/ratings-service:0.0.1-SNAPSHOT
-        name: movie-service
+        name: ratings-service
         volumeMounts:
         - mountPath: /app/config
           name: ratings-service-config
